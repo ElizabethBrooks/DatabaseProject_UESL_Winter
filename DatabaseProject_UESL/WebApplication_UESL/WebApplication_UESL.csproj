@@ -325,7 +325,7 @@
     <Content Include="Views\Students\studentExport.cshtml" />
     <Content Include="Views\Courses\coursesExport.cshtml" />
     <Content Include="Views\Enrollments\enrollmentsExport.cshtml" />
-    <Content Include="Views\Home\UsageGuide.cshtml" />
+    <Content Include="Views\Shared\UsageGuide.cshtml" />
     <Content Include="Views\Shared\_UsageGuideLayout.cshtml" />
     <Content Include="Views\Shared\_AboutLayout.cshtml" />
   </ItemGroup>
