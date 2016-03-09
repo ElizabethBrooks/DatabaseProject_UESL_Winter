@@ -2,3 +2,49 @@
     ViewBag.Title = "Usage Guide";
     Layout = "~/Views/Shared/_UsageGuideLayout.cshtml";
 }
+
+<p>
+    From the home page, you may access UESL records for students, courses, and all enrollments.
+    Begin, for example, by clicking on the Students button to navigate to the List of Students.
+</p>
+
+<center><img id="img_logo" alt="Logo" style="width: 700px; height: 350px;" src="@Url.Content("~/Content/Images/home.png")" /></center>
+
+<p>
+    The List of Students page lists the records of current UESL students, which may be filtered by name, student ID, agent, or citizenship.
+    To create a new student record, click Add Student.
+</p>
+
+<center><img id="img_logo" alt="Logo" style="width: 700px; height: 600px;" src="@Url.Content("~/Content/Images/studentsList.png")" /></center>
+
+<p>
+    From the Create Student Record page, you may add a new student’s record to the database by: 
+    1.	Click on Choose File to upload a photo of the student from your computer.
+    2.	Fill in student information fields as necessary, any field may be left empty.
+    3.	The Create button, at the bottom of the page, saves the entered student information.
+</p>
+
+<center><img id="img_logo" alt="Logo" style="width: 700px; height: 600px;" src="@Url.Content("~/Content/Images/studentInfo.png")" /></center>
+
+<p>
+    In the List of Courses page, you may filter the list of courses by name, class ID, instructor or Quarter.
+    To create a new course, click Add Course.
+</p>
+
+<center><img id="img_logo" alt="Logo" style="width: 700px; height: 600px;" src="@Url.Content("~/Content/Images/courseList.png")" /></center>
+
+<p>
+    From the Create Course Record page, you may add a new course to the list of available courses. The Create button must be clicked to save the entered information for the course, any field may be left empty.
+</p>
+
+<center><img id="img_logo" alt="Logo" style="width: 700px; height: 450px;" src="@Url.Content("~/Content/Images/courseInfo.png")" /></center>
+
+<p>
+    The List of Enrollments page allows you to filter all UESL student enrollments by the criteria available on both the List of Students and List of Courses pages. Note that you cannot add student or course records from the List of Enrollments page.
+</p>
+
+<center><img id="img_logo" alt="Logo" style="width: 700px; height: 600px;" src="@Url.Content("~/Content/Images/enrollmentList.png")" /></center>
+
+<p>
+Important Note:  The Delete Selected buttons on the List of Enrollments, List of Courses, and List of Students pages will delete selected student or course records only after user conformation.
+</p>
